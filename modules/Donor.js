@@ -1,13 +1,15 @@
 class Donor {
   constructor(
     name,
-    moneyAmount,
-    department
+    affiliation
   ){
     this.name = name;
-    this.moneyAmount = moneyAmount;
-    this.department = department;
+    this.affiliation = affiliation;
   }
+
+  // TODO: add a class method called 'donate' 
+  // 1) it takes three params (date, amount, department)
+  // 2) it updates the 'department' budget property by the amount param
 }
 
 

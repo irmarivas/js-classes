@@ -19,8 +19,8 @@ class Hospital {
   }
 }
 
-const hospitalInstance = new Hospital(); // use the 'new' keyword and invoke the constructor to make an instance/copy, arguments are optional
-console.log (hospitalInstance.mailingStreet); // This is how to access properties of an instance using the dot operator
+// const hospitalInstance = new Hospital(); // use the 'new' keyword and invoke the constructor to make an instance/copy, arguments are optional
+// console.log (hospitalInstance.mailingStreet); // This is how to access properties of an instance using the dot operator
 
 export {
   Hospital
