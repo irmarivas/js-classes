@@ -4,13 +4,13 @@ class Patient {
     diagnosis,
     paid,
     daysStayed,
-    covered
+    isCovered
   ) {
     this.name = name;
     this.diagnosis = diagnosis;
     this.paid = paid;
     this.daysStayed = daysStayed;
-    this.covered = covered;
+    this.isCovered = isCovered;
   }
 }
 

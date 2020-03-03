@@ -2,12 +2,12 @@ class Vendor {
   constructor(
     name,
     clearance,
-    paid,
+    hasPaidFees,
     services
   ) {
     this.name = name;
     this.clearance = clearance;
-    this.paid = paid;
+    this.hasPaidFees = hasPaidFees;
     this.services = services;
   }
 }

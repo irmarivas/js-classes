@@ -5,7 +5,5 @@ import {
   Employee,
   Insurance,
   Patient,
-  Vendor,
-
-
+  Vendor
 } from './modules/Library.js';
