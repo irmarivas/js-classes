@@ -8,8 +8,14 @@ class Donor {
   }
 
   // TODO: add a class method called 'donate' 
-  // 1) it takes three params (date, amount, department)
-  // 2) it updates the 'department' budget property by the amount param
+  // 1) Donate takes three params (lastDonationDate, amount, department)
+  donate(lastDonationDate, amount, department){
+    // 2) Donate updates the 'department' budget property by the amount param
+    department.budget = department.budget + amount;
+    // 3) Update the donation date on the department object to the last donation date
+    department.lastDonationDate = lastDonationDate;
+    return department;
+  }
 }
 
 
