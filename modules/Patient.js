@@ -11,6 +11,7 @@ class Patient {
     this.paid = paid;
     this.daysStayed = daysStayed;
     this.isCovered = isCovered;
+    this.prescriptions = [];
   }
 }
 

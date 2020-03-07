@@ -11,6 +11,7 @@ class Department {
     this.phoneNumber = phoneNumber;
     this.location = location;
     this.budget = budget;
+    this.lastDonationDate = null;
   }
 }
 
